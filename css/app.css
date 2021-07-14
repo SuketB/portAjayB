@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+@keyframes intro {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    60%{
+        opacity: 0.8;
+        transform: translateX(25px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+
+
+@keyframes introImg {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    60%{
+        opacity: 0.8;
+        transform: translateY(25px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+#navFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar{
+    box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.52);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
+
+
+
+#myImg{
+    max-width: 400px;
+    max-height: 300px;
+    /* height: auto;
+    width:auto; */
+    border-radius: 25%;
+    position: relative;
+    right: 3em;
+    animation: introImg 1.5s ease-in-out 0s 1 normal none;
+    z-index: -1;
+    
+}
+
+.applyShawdow{
+    box-shadow: 7px 7px 11px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 7px 7px 11px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 7px 11px 0px rgba(0,0,0,0.75);
+}
+
+.aboutMe{
+    padding-left: 2.5em;
+    padding-bottom: 3.5em;
+    padding-right: 0.5em;
+    padding-top: 2em;
+    margin-top: 1em;
+    font-size: 1.2em;
+    
+    border-bottom-left-radius: 50%;
+    
+    position: relative;
+    top: -2.5em;
+    right: -4em;
+    z-index: -2;
+    animation: intro 1.5s ease-in-out 0s 1 normal none;
+}
+
+.backC{
+    background-color: #0077b6;
+    color:white;
+}
+
+#aboutMe{
+  padding:2em;
+  border-bottom-left-radius: 25%;
+}
+
+#copyright{
+    color: rgba(0,0,0);
+}
+
+.card:hover{
+    box-shadow: 0px 13px 25px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 13px 25px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 13px 25px 0px rgba(0,0,0,0.75);
+}
+
+.centerCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-brand{
+    font-weight: 600;
+   
+}
+
+#home_section{
+    margin-top: 3.7em;
+    margin-bottom: 2em;
+}
+
+.links{
+    color: rgba(0,0,0,0.9) !important;
+}
+
+.links:hover{
+    font-weight: 500;
+}
