@@ -5,10 +5,7 @@
     
     
 }
-body{
-    background: rgb(240,240,240);
-background: linear-gradient(112deg, rgba(240,240,240,1) 0%, rgba(93,109,252,1) 100%);
-}
+
 
 @keyframes intro {
     0%{
